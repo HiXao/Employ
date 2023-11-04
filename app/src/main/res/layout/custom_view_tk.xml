@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_v">
+
+    <TextView
+        android:id="@+id/tvTenNV"
+        style="@style/tv_title"
+        android:textColor="#070110"
+        android:textStyle="bold"/>
+
+    <LinearLayout style="@style/linear_h"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/tv_noidung"
+            android:layout_width="113dp"
+            android:text="@string/manv" />
+
+        <TextView
+            android:id="@+id/tvMaNV"
+            style="@style/tv_noidung"
+            android:layout_width="279dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/linear_h"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/tv_noidung"
+            android:layout_width="114dp"
+            android:text="@string/tenpb" />
+
+        <TextView
+            android:id="@+id/tvTenPhongBan"
+            style="@style/tv_noidung"
+            android:layout_width="273dp" />
+    </LinearLayout>
+
+
+    <LinearLayout style="@style/linear_h"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/tv_noidung"
+            android:layout_width="114dp"
+            android:text="@string/ngaychamcong" />
+
+        <TextView
+            android:id="@+id/tvNgayChamCong"
+            style="@style/tv_noidung"
+            android:layout_width="274dp" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/linear_h"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/tv_noidung"
+            android:layout_width="116dp"
+            android:text="@string/thuclanh" />
+
+        <TextView
+            android:id="@+id/tvThucLanh"
+            style="@style/tv_noidung"
+            android:layout_width="276dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear_h">
+
+        <Button
+            android:id="@+id/btnChiTiet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:text="@string/chitiet" />
+
+        <Button
+            android:id="@+id/btnBieuDo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:text="@string/bieudo" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linear_v"
+    android:background="#ffffff"
+    tools:context=".Interface.ChamCong.AddChamCong">
+
+    <TextView
+        style="@style/tv_title"
+        android:text="@string/themCC" />
+
+    <LinearLayout
+        style="@style/linear_h"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/tv_noidung"
+            android:layout_width="100dp"
+            android:text="@string/manv"
+            android:textColor="#05000B"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvMaNV"
+            style="@style/tv_noidung" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear_h"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/tv_noidung"
+            android:layout_width="130dp"
+            android:text="@string/tennv"
+            android:textColor="#05000B"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvHoTen"
+            style="@style/tv_noidung" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear_h"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/tv_noidung"
+            android:layout_width="147dp"
+            android:text="@string/ngaychamcong"
+            android:textColor="#05000B"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtNgayChamCong"
+            style="@style/edttext"
+            android:layout_width="244dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear_h"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/tv_noidung"
+            android:layout_width="147dp"
+            android:text="@string/songaycong"
+            android:textColor="#05000B"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtSoNgayCong"
+            style="@style/edttext" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnthemCC"
+        style="@style/button"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom_button4"
+        android:padding="10dp"
+        android:text="@string/them" />
+</LinearLayout>

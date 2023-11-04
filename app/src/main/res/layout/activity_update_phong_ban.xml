@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linear_v"
+    android:background="#ffffff"
+    tools:context=".Interface.PhongBan.UpdatePhongBan">
+
+    <TextView
+        style="@style/tv_title"
+        android:text="@string/suaPB"/>
+    <EditText
+        style="@style/edttext"
+        android:id="@+id/tvMaPhongS"
+        android:padding="10dp"
+        android:textSize="19dp"
+        android:hint="@string/nhapMP"/>
+
+    <EditText
+        style="@style/edttext"
+        android:id="@+id/txtTenPhongS"
+        android:padding="10dp"
+        android:hint="@string/nhapTP"/>
+    <Button
+        android:id="@+id/btnSuaPB"
+        style="@style/button"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button4"
+        android:layout_marginTop="50dp"
+        android:drawableLeft="@drawable/ic_baseline_edit_24"
+        android:text="@string/sua"/>
+</LinearLayout>

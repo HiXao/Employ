@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Salary Management</string>
+    <string name="luu">Save</string>
+    <string name="mo">Load</string>
+    <string name="thoat">Close</string>
+    <string name="them">Add</string>
+    <string name="xoa">Delete</string>
+    <string name="sua">Edit</string>
+    <string name="clear">Clear</string>
+    <string name="manv">ID</string>
+    <string name="tennv">Full Name</string>
+    <string name="ngaysinh">Date of Birth</string>
+    <string name="mapb">ID Room</string>
+    <string name="tenpb">Department</string>
+    <string name="luongcoban">Basic Earning</string>
+    <string name="tieude_nv">Employee List</string>
+    <string name="tieude_addnv">Add Employee</string>
+    <string name="tieude_update">Edit Employee</string>
+    <string name="id">ID: </string>
+    <string name="name">Name: </string>
+    <string name="birth">Date of birth: </string>
+    <string name="room">Room: </string>
+    <string name="salary">Salary: </string>
+    <string name="employee_list">Employee</string>
+    <string name="checkout">Chấm công</string>
+    <string name="advance_payment">Tạm ứng</string>
+    <string name="summary">Summary</string>
+    <string name="aboutus">About Us</string>
+    <string name="lang_en" translatable="false">English</string>
+    <string name="lang_vi" translatable="false">Tiếng Việt</string>
+    <string name="themPB">Add departments</string>
+    <string name="suaPB">Update departments</string>
+    <string name="nhapMP">Enter the room code</string>
+    <string name="nhapTP">Enter the room name</string>
+    <string name="danhsachPB">Departments</string>
+    <string name="danhsachCC">Checkout</string>
+    <string name="suaCC">Update Checkout</string>
+    <string name="danhsachTU">Advance Payment</string>
+    <string name="suaTU">Update Advance Payment</string>
+    <string name="thongke">Summary</string>
+    <string name="tv_manv">ID</string>
+    <string name="themCC">Add Checkout</string>
+    <string name="themTU">Add Advance Payment</string>
+    <string name="nhapNGS">Enter the date entered</string>
+    <string name="nhapSNC">Enter the number of workdays</string>
+    <string name="nhapNgay">Enter the date</string>
+    <string name="nhapSP">Enter the number of votes</string>
+    <string name="nhapST">Enter the amount</string>
+    <string name="logo_name">EMSAMA</string>
+    <string name="user">User</string>
+    <string name="pw">Password</string>
+    <string name="login">Login</string>
+    <string name="gioitinh">"Sex: "</string>
+    <string name="ngaychamcong">Checkout Date</string>
+    <string name="songaycong">Workdays</string>
+    <string name="ngaytamung">Payment Date</string>
+    <string name="sotienung">Payment Amount</string>
+    <string name="sophieu">ID Payment</string>
+    <string name="updateChamCong">Edit Checkout</string>
+    <string name="thuclanh">Real Earning</string>
+    <string name="chitiet">Detail</string>
+    <string name="bieudo">Chart</string>
+    <string name="filter">Filter</string>
+    <string name="tongluong">Total</string>
+    <string name="department">Department</string>
+    <string name="hesoluong">Pay rate</string>
+    <string name="title_activity_lien_he">Map</string>
+    <string name="lienhe">About Us</string>
+    <string name="nhom">Nhóm</string>
+    <string name="member">"Thành viên: "</string>
+    <string name="tenud">"Tên Ứng dụng: "</string>
+    <string name="version">Version</string>
+    <string name="email">"Email: "</string>
+    <string name="dt">Số điện thoại</string>
+    <string-array name="map_type">
+        <item>MAP_TYPE_NONE</item>
+        <item>MAP_TYPE_NORMAL</item>
+        <item>MAP_TYPE_SATELLITE</item>
+        <item>MAP_TYPE_HYBRID</item>
+        <item>MAP_TYPE_TERRAIN</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_h"
+    android:padding="10dp"
+    >
+
+    <LinearLayout
+        style="@style/linear_v"
+        android:layout_width="312dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tv_noidung"
+                android:layout_width="84dp"
+                android:text="@string/manv" />
+
+            <TextView
+                android:id="@+id/tvMaNV"
+                style="@style/tv_noidung"
+                android:layout_width="242dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tv_noidung"
+                android:layout_width="122dp"
+                android:text="@string/tennv" />
+
+            <TextView
+                android:id="@+id/tvHoTen"
+                style="@style/tv_noidung"
+                android:layout_width="204dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tv_noidung"
+                android:layout_width="122dp"
+                android:text="@string/ngaychamcong" />
+
+            <TextView
+                android:id="@+id/tvNgayChamCong"
+                style="@style/tv_noidung"
+                android:layout_width="204dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tv_noidung"
+                android:layout_width="123dp"
+                android:text="@string/songaycong" />
+
+            <TextView
+                android:id="@+id/tvSoNgayCong"
+                style="@style/tv_noidung"
+                android:layout_width="203dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btnXoa"
+            style="@style/button_model_view"
+            android:layout_marginBottom="5dp"
+            android:background="#ffffff"
+            android:src="@drawable/ic_baseline_delete_24" />
+
+        <ImageButton
+            android:id="@+id/btnSua"
+            style="@style/button_model_view"
+
+            android:background="#ffffff"
+            android:src="@drawable/ic_baseline_edit_24" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="15dp"
+    android:layout_gravity="center_vertical"
+    style="@style/linear_v">
+
+
+    <LinearLayout
+        style="@style/linear_h"
+        android:layout_height="132dp">
+
+        <ImageView
+            android:id="@+id/imgHinhDaiDien"
+            style="@style/img_model"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/men" />
+
+        <LinearLayout style="@style/linear_v">
+
+            <LinearLayout
+                style="@style/linear_h"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    style="@style/tv_noidung"
+                    android:layout_width="96dp"
+                    android:text="@string/manv" />
+
+                <TextView
+                    android:id="@+id/tvMaNV"
+                    style="@style/tv_noidung" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear_h"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    style="@style/tv_noidung"
+                    android:layout_width="96dp"
+                    android:text="@string/tennv" />
+
+                <TextView
+                    android:id="@+id/tvTenNV"
+                    style="@style/tv_noidung" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear_h"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    style="@style/tv_noidung"
+                    android:layout_width="96dp"
+                    android:text="@string/birth" />
+
+                <TextView
+                    android:id="@+id/tvNgaySinh"
+                    style="@style/tv_noidung" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear_h"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    style="@style/tv_noidung"
+                    android:layout_width="96dp"
+                    android:text="@string/gioitinh" />
+
+                <TextView
+                    android:id="@+id/tvGioiTinh"
+                    style="@style/tv_noidung" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear_h"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    style="@style/tv_noidung"
+                    android:layout_width="96dp"
+                    android:text="@string/department" />
+
+                <TextView
+                    android:id="@+id/tvPhongBan"
+                    style="@style/tv_noidung" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear_h"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    style="@style/tv_noidung"
+                    android:layout_width="116dp"
+                    android:text="@string/hesoluong" />
+
+                <TextView
+                    android:id="@+id/tvLuong"
+                    style="@style/tv_noidung" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear_h"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        >
+        <ImageButton
+            android:id="@+id/btnXoa"
+            style="@style/button_model"
+            android:background="@drawable/button_del"
+            android:src="@drawable/ic_baseline_delete_24"
+            />
+
+        <ImageButton
+            android:id="@+id/btnSua"
+            style="@style/button_model"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/button_del"
+            android:src="@drawable/ic_baseline_edit_24"
+            />
+        <Button
+            android:id="@+id/btnChamCong"
+            style="@style/button_model"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/img_button"
+            android:text="@string/checkout"
+            />
+        <Button
+            android:id="@+id/btnTamUng"
+            style="@style/button_model"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/img_button"
+            android:text="@string/advance_payment"
+            />
+    </LinearLayout>
+
+</LinearLayout>

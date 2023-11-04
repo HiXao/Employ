@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#D2139383"
+    tools:context=".Interface.TrangChu.LoginActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="70dp"
+        android:textColor="#F6F2F2"
+        android:text="Login" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp">
+        <EditText
+            android:id="@+id/edtNameDN"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="#F6F2F2"
+            android:hint="Nhập tên tài khoản"
+            android:inputType="textPersonName"
+            android:textColorHint="#F6F2F2" />
+
+        <EditText
+            android:id="@+id/etdPassDN"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtNameDN"
+            android:ems="10"
+            android:hint="Nhập mật khẩu"
+            android:inputType="textPassword"
+            android:textColor="#F6F2F2"
+            android:textColorHint="#F6F2F2" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btnDangNhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F6F2F2"
+        android:backgroundTint="#A5DDD6"
+        android:text="Đăng nhập" />
+
+    <Button
+        android:id="@+id/btnDangKyDN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng kí"
+        android:textColor="#F6F2F2"
+        android:backgroundTint="#A5DDD6"/>
+
+    <TextView
+        android:id="@+id/txtQuenMK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quên mật khẩu?"
+        android:textSize="18sp"
+        android:textColor="#F6F2F2" />
+</LinearLayout>

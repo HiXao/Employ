@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linear_v"
+    android:background="#ffffff"
+    tools:context=".Interface.NhanVien.UpdateNhanVien">
+
+    <TextView
+        style="@style/tv_title"
+        android:text="@string/tieude_update" />
+
+    <LinearLayout
+        style="@style/linear_h"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/men"
+            android:id="@+id/imgHinhDaiDien" />
+        <Button
+            android:text="Chọn Hình"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnChonHinh"
+            android:background="@drawable/button_del"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/linear_h"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/tv_noidung"
+            android:layout_width="41dp"
+            android:text="@string/manv" />
+        <TextView
+            android:id="@+id/tvMaNV"
+            style="@style/tv_noidung"
+            android:hint="@string/manv"
+            />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/linear_h"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/tv_noidung"
+            android:layout_width="74dp"
+            android:text="@string/tennv" />
+
+        <EditText
+            android:id="@+id/txtTenNV"
+            style="@style/edttext"
+            android:hint="@string/tennv"
+            android:inputType="text"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+        <TextView
+            style="@style/tv_noidung"
+            android:layout_width="93dp"
+            android:text="@string/ngaysinh" />
+
+        <EditText
+            android:id="@+id/txtNgaySinh"
+            style="@style/edttext"
+            android:layout_width="239dp"
+            android:hint="@string/birth"
+            android:inputType="date" />
+
+        <ImageButton
+            android:id="@+id/btnDatePicker"
+            style="@style/button_model_view"
+            android:src="@drawable/date"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        >
+
+        <TextView
+            style="@style/tv_noidung"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:text="@string/gioitinh"/>
+        <RadioButton
+            android:id="@+id/radNam"
+            style="@style/btn_radio"
+            android:text="Nam"
+            android:checked="true"
+            android:layout_marginLeft="50dp"
+            />
+
+        <RadioButton
+            android:id="@+id/radNu"
+            style="@style/btn_radio"
+            android:text="Nữ"
+            android:layout_marginLeft="40dp"
+            />
+    </RadioGroup>
+
+    <LinearLayout
+        style="@style/linear_h"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/tv_noidung"
+            android:layout_width="87dp"
+            android:text="@string/tenpb" />
+
+        <Spinner
+            android:id="@+id/spTenPB"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear_h"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/tv_noidung"
+            android:layout_width="66dp"
+            android:text="@string/hesoluong"/>
+        <EditText
+            android:id="@+id/edtLuong"
+            style="@style/edttext"
+            android:inputType="number"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnUpdate"
+        style="@style/button"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/custom_button4"
+        android:drawableLeft="@drawable/ic_baseline_edit_24"
+        android:text="@string/sua"/>
+</LinearLayout>

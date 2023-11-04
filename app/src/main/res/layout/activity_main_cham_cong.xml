@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linear_v"
+    android:background="#ffffff"
+    tools:context=".Interface.ChamCong.MainActivityChamCong">
+
+    <TextView
+        android:text="@string/danhsachCC"
+        style="@style/tv_title"/>
+
+    <ListView
+        android:id="@+id/lvChamCong"
+        style="@style/lv"
+        android:padding="10dp"
+        />
+</LinearLayout>

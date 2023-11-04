@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linear_v"
+    android:background="#ffffff"
+    tools:context=".Interface.TamUng.UpdateTamUng">
+
+    <TextView
+        style="@style/tv_title"
+        android:text="@string/suaTU"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <TextView
+            style="@style/tv_noidung"
+            android:layout_width="100dp"
+            android:text="@string/manv"
+            android:textColor="#05000B"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/tvMaNV"
+            style="@style/tv_noidung"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <TextView
+            style="@style/tv_noidung"
+            android:layout_width="100dp"
+            android:text="@string/tennv"
+            android:textColor="#05000B"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/tvHoTen"
+            style="@style/tv_noidung"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvNgayTamUng"
+        style="@style/tv_noidung"
+        android:layout_width="243dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/tv_noidung"
+            android:layout_width="123dp"
+            android:text="@string/sophieu"
+            android:textColor="#05000B"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSoPhieu"
+            style="@style/edttext" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/tv_noidung"
+            android:layout_width="148dp"
+            android:text="@string/ngaytamung"
+            android:textColor="#05000B"
+            android:textStyle="bold" />
+        <EditText
+            style="@style/edttext"
+            android:id="@+id/txtNgayUng"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/tv_noidung"
+            android:layout_width="172dp"
+            android:text="@string/sotienung"
+            android:textColor="#05000B"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtSoTienUng"
+            style="@style/edttext" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnSuaTU"
+        style="@style/button"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom_button4"
+        android:drawableLeft="@drawable/ic_baseline_edit_24"
+        android:text="@string/sua"/>
+</LinearLayout>
