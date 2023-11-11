@@ -26,7 +26,7 @@
 ## Công nghệ:
 - [ Android Studio ](https://developer.android.com/) 
 ## Phân công công việc:
-| STT | [ Võ Anh Hào ] | [ Vũ Bá Khôi ](https://github.com/AqGzs)| [ Phan Thế Kiệt ] |
+| STT | [ Võ Anh Hào ] | [ Vũ Bá Khôi ]| [ Phan Thế Kiệt ] |
 |-----------|--|------|-------|
 | 1  | + Xem thông tin nhân viên | + Xem thông tin chấm công | + Quản lí phòng ban |
 | 2  | + Nhân viên chấm công | + Tạm ứng cho nhân viên | + Xem danh sách tạm ứng |
