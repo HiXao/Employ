@@ -13,8 +13,8 @@
 
 ## Mục đích:
 - Tiếp thu nhận xét
-- Kiếm lợi nhuận
-- Thu thập thêm độc giả mới
+- Kiếm kinh nghiệm
+- Thu thập thêm đọc giả mới
 
 
 ### Mục tiêu:
@@ -24,7 +24,8 @@
 | + Xem thông tin chấm công | + Tạm ứng cho nhân viên |
 | + Quản lí phòng ban | + Xem danh sách tạm ứng
 ## Công nghệ:
-- [ Android Studio ](https://developer.android.com/) 
+- [ IDE ](https://developer.android.com/)
+- [ SQLite ](https://www.sqlite.org/index.html) 
 ## Phân công công việc:
 | STT | [ Võ Anh Hào ] | [ Vũ Bá Khôi ]| [ Phan Thế Kiệt ] |
 |-----------|--|------|-------|
